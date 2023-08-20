@@ -1,0 +1,164 @@
+@import url(./customanimation.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* 将 navbar 放在最上层 */
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.2rem;
+}
+
+.navbar .navbar-brand,
+.nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-brand-icon {
+    width: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.navbar-scrolled {
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .nav-link {
+    color: #000;
+    transition: 0.5s;
+}
+
+.navbar-scrolled .navbar-brand-icon {
+    filter: invert(0.7);
+    transition: 0.5s;
+}
+
+.banner {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    background-image: linear-gradient(to bottom, rgba(248, 249, 250, 0), #f8f9fa 100%);
+}
+
+.banner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.banner-content {
+    text-shadow: 2px 0px 10px #66ccff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.navbar-brand-icon {
+    width: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.intro {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.status {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.feature {
+    padding: 100px 0;
+    background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.2), #f8f9fa), url(../assets/feature_bg.webp) no-repeat center center;
+}
+
+.join a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.join .card {
+    background-color: transparent;
+}
+
+.join .card:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: #66ccff22;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.page-footer {
+    background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.7)), url(../assets/footer_bg.webp) no-repeat center center;
+}
+
+/* 定义滚动条的样式 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* 定义滚动条轨道的样式 */
+::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+
+/* 定义滚动条滑块的样式 */
+::-webkit-scrollbar-thumb {
+    background-color: #66ccff;
+    border-radius: 10px;
+}
+
+/* 定义滚动条滑块在 hover 状态下的样式 */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0062cc;
+}

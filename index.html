@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://gcore.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <title>觅光之境LightZone | 辽宁大学方块人交流协会</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <img src="./assets/lightzone_icon.svg" alt="LightZone Icon" class="navbar-brand-icon">
+            <a class="navbar-brand" href="#">觅光之境LightZone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">首页 | Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="//lightzonemap.mevisual.top" target="_blank">全景地图 | Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="//wiki.lightzone.mevisual.top" target="_blank">文档 | Wiki</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            用户中心 | User
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="//skin.mualliance.ltd" target="_blank">MUA User
+                                    Center</a></li>
+                            <li><a class="dropdown-item" href="//mcskin.mevisual.top" target="_blank">LightZone |
+                                    LNU</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="//docs.mualliance.cn/zh/dev/union/auth"
+                                    target="_blank">查看所有支持的皮肤站...</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="banner">
+        <video autoplay muted loop>
+            <source src="./assets/banner.mp4" type="video/mp4">
+            你的浏览器不支持该视频元素.
+        </video>
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h2>Welcome To LightZone !</h2>
+            <p>觅忆视觉MeVisual | 辽宁大学Minecraft同好者协会</p>
+        </div>
+        <!-- 指示向下滚动的箭头动画 -->
+        <a href="#intro">
+            <div class="scroll-down">
+                <span></span>
+            </div>
+        </a>
+    </div>
+
+    <section id="intro" class="container-fluid intro">
+        <div class="row px-4">
+            <div class="col-md-6 d-flex align-items-center">
+                <div class="mx-auto">
+                    <img src="assets/lnuxme.webp" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h2>What is LightZone ?</h2>
+                <p>
+                    觅光之境LightZone，一个基于Minecraft开源社区的Minecraft群组服，为日常娱乐及团队项目建造设计。目前由觅忆视觉MeVisual@森稳XenWayne维护，服务于辽宁大学Minecraft同好者协会，是<a
+                        href="https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BDMinecraft%E9%AB%98%E6%A0%A1%E8%81%94%E7%9B%9F"
+                        target="_blank">中国Minecraft高校联盟(MUA)</a>联合认证项目中的一部分。
+                </p>
+                <a class="icon-link icon-link-hover" href="//www.mualliance.cn" target="_blank">
+                    MUA官网<i class="bi bi-chevron-right"></i>
+                </a>
+                <br>
+                <a class="icon-link icon-link-hover"
+                    href="//qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZPfzlTX2aMqN_Ty1J5zYUJWjo_IHRc-M&authKey=ZndmENRvqmnGOaOS9DfW3qDnx85lSBGINmxZgfPEpzvme22BZ7wkBdZWDktSDRfs&noverify=0&group_code=852976282"
+                    target="_blank">
+                    加入辽宁大学Minecraft同好者协会交流群<i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid py-5 text-center bg-light">
+        <div class="container px-4 py-5">
+            <div class="pb-2">
+                <div class="card p-3 bg-white">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="icon">
+                                    <i class="bi bi-server"></i>
+                                </div>
+                                <div class="ms-2 c-details">
+                                    <h6 class="mb-0">LightZone</h6>
+                                    <p class="text-secondary mb-0">运行状态</p>
+                                </div>
+                            </div>
+                            <div class="badge bg-primary rounded-pill">
+                                <span id="server-status-status"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="d-flex justify-content-between mt-3">
+                                    <div class="me-3">
+                                        <h6 class="fw-bold">在线数量</h6>
+                                        <p class="text-secondary mb-0"><span id="server-status-online"></span> / <span
+                                                id="server-status-max"></span></p>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold">Version</h6>
+                                        <p class="text-secondary mb-0"><span id="server-status-version"></span></p>
+                                    </div>
+                                    <div class="d-none d-sm-block">
+                                        <h6 class="fw-bold">查询耗时</h6>
+                                        <p class="text-secondary mb-0"><span id="server-status-latency"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid feature">
+        <div class="container px-4 py-5">
+            <div class="pb-2">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <i class="bi bi-person-bounding-box fs-1 mb-3"></i>
+                                <h5 class="card-title">Works With MUA Union</h5>
+                                <p class="card-text">LightZone已接入MUA联合认证，您可通过MUA联合大厅在各大高校服务器中畅行。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <i class="bi bi-hdd-network fs-1 mb-3"></i>
+                                <h5 class="card-title">双栈网络支持</h5>
+                                <p class="card-text">除接入MUA的上海交通大学接入点外，LightZone另提供IPv6接入点。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                                <i class="bi bi-chat-dots fs-1 mb-3"></i>
+                                <h5 class="card-title">扁平自由化社区</h5>
+                                <p class="card-text">lab实验世界、project项目世界，建筑项目专用节点、热存档、区块防盗机制。你的每个想法都将被尊重。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid join">
+        <div class="container px-4 py-5">
+            <div class="pb-2">
+                <a href="//wiki.lightzone.mevisual.top" target="_blank" class="text-decoration-none">
+                    <div class="card border-0 rounded shadow-lg">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <p class="card-text mb-0">已经准备好加入 LightZone？亦或是有些问题？请访问文档 LightZoneWiki<i
+                                    class="bi bi-chevron-right"></i></p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer shadow text-secondary">
+        <div class="d-flex flex-column mx-auto py-5" style="width: 80%">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div>
+                    <span class="h5 font-weight-bold">LNU | LightZone</span>
+                    <p class="my-3 " style="width: 250px">
+                        辽宁大学Minecraft同好者协会为同学自发的非官方组织。本项目与Microsoft及Mojang AB无关。
+                    </p>
+                    <p class="my-3" style="width: 250px">
+                        NOT AN OFFICIAL MINECRAFT ORGANIZATION.
+                        <br>
+                        NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
+                    </p>
+                </div>
+                <div>
+                    <p class="h5 mb-4" style="font-weight: 600">LightZone</p>
+                    <ul class="p-0" style="list-style: none; cursor: pointer">
+                        <li class="my-2">
+                            <a class="text-secondary" href="//lightzonemap.mevisual.top" target="_blank">全景地图 | Map</a>
+                        </li>
+                        <li class="my-2">
+                            <a class="text-secondary" href="//wiki.lightzone.mevisual.top" target="_blank">文档 | Wiki</a>
+                        </li>
+                        <li class="my-2">
+                            <a class="text-secondary" href="//skin.mualliance.ltd" target="_blank">MUA皮肤站 | MUA User
+                                Center</a>
+                        </li>
+                        <li class="my-2">
+                            <a class="text-secondary" href="//mcskin.mevisual.top" target="_blank">LNU皮肤站 | LNUMC
+                                Skin</a>
+                        </li>
+                        <li class="my-2"><a class="text-secondary" href="//status.mevisual.top/" target="_blank">状态页 |
+                                Status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="h5 mb-4" style="font-weight: 600">Contact</p>
+                    <ul class="p-0" style="list-style: none; cursor: pointer">
+                        <li class="my-2">
+                            <a class="text-secondary" href="mailto:xenwayne@mevisual.top">
+                                <i class="bi bi-envelope-fill me-2"></i>xenwayne@mevisual.top
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a class="text-secondary"
+                                href="//qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZPfzlTX2aMqN_Ty1J5zYUJWjo_IHRc-M&authKey=ZndmENRvqmnGOaOS9DfW3qDnx85lSBGINmxZgfPEpzvme22BZ7wkBdZWDktSDRfs&noverify=0&group_code=852976282"
+                                target="_blank">
+                                <i class="bi bi-tencent-qq me-2"></i>辽宁大学Minecraft同好者协会
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="h5 mb-4" style="font-weight: 600">Links</p>
+                    <ul class="p-0" style="list-style: none; cursor: pointer">
+                        <li class="my-2">
+                            <a class="text-secondary" href="//www.mualliance.cn" target="_blank">中国Minecraft高校联盟</a>
+                        </li>
+                        <li class="my-2">
+                            <a class="text-secondary" href="//mc.sjtu.cn" target="_blank">上海交通大学Minecraft社团</a>
+                        </li>
+                        <li class="my-2">
+                            <a class="text-secondary" href="//mtsmc.net" target="_blank">Miracle Town</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <small>&copy; MeVisual | <a class="text-secondary text-decoration-none" href="//xenwayne.top"
+                    target="_blank">XenWayne</a>. All rights reserved.</small>
+            <small>Built With <a class="text-secondary text-decoration-none" href="//getbootstrap.com/"
+                    target="_blank">Bootstrap</a>.</small>
+        </div>
+    </footer>
+</body>
+</html>
