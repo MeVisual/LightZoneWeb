@@ -112,7 +112,8 @@ body {
 
 .feature {
     padding: 100px 0;
-    background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.2), #f8f9fa), url(../assets/feature_bg.webp) no-repeat center center;
+    /* background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.2), #f8f9fa), url(../assets/feature_bg.webp) no-repeat center center; */
+    background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.2), #f8f9fa), url(https://gcore.jsdelivr.net/gh/XenWayne/sitefile@master/web/lightzoneweb/assets/feature_bg.webp) no-repeat center center;
 }
 
 .join a {
@@ -138,7 +139,8 @@ body {
 
 
 .page-footer {
-    background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.7)), url(../assets/footer_bg.webp) no-repeat center center;
+    /* background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.7)), url(../assets/footer_bg.webp) no-repeat center center; */
+    background: linear-gradient(#f8f9fa, rgba(255, 255, 255, 0.7)), url(https://gcore.jsdelivr.net/gh/XenWayne/sitefile@master/web/lightzoneweb/assets/footer_bg.webp) no-repeat center center;
 }
 
 /* 定义滚动条的样式 */
